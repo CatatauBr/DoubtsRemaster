@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Quicksand', Verdana, sans-serif;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1439px;
+    margin: auto;
+}
+
+.menu-principal {
+    min-height: auto;
+    background-color: #18bd9b;
+    box-shadow: 0rem 0.1rem 0.2rem #000000; 
+    z-index: 1;
+    padding: 1vh 2vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+.caixa-logotipo{
+    display: flex;
+}
+
+.caixa-logotipo img{
+    max-height: 50px;
+}
+
+.caixa-menu {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.caixa-menu nav {
+    width: 100%;
+}
+
+.hamburguer-menu{
+    height: 100%;
+    display: none;
+}
+
+.hamburguer-menu > div{
+    width: 30px;
+    height: 5px;
+    background: #fff;
+    margin: 4px;
+}
+
+.caixa-menu nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixa-menu nav ul li{
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: white; 
+}
+
+.caixa-menu nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 0rem  1rem 0.5rem 1rem;
+}
+
+.caixa-menu nav ul a:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: #18bd9b;
+    -webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+/*Rodape*/
+
+.rodape {
+    width: 100%;
+    min-height: 8.0rem;
+    padding: 0vh 2vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #18bd9b;
+    border-top: 1px solid black;
+}
+
+.paragrafo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paragrafo p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+@media screen and (max-width: 2559px) {
+    .caixa-menu{
+        max-width: 2559px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    /*Trabalhando o menu e deixando ele desativado*/
+
+    header {
+        display: block;
+    }
+
+    .caixa-logotipo{
+        max-height: 6.0rem;
+    }
+
+    .caixa-menu { 
+        display: flex;
+        justify-content: space-around;
+        width: 90vw;
+        margin-left: 0vw;
+        margin-top: 10vh;
+        position: absolute;
+    }
+
+    .caixa-menu nav {
+        display: none;
+    }
+
+    /*mexendo no hamburguer menu*/
+
+    .hamburguer-menu{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-height: 40px;
+        position: absolute;
+        right: 20px;
+        cursor: pointer;
+        box-sizing: border-box;
+
+    }
+
+    .hamburguer-menu > div{
+        transition-duration: 0.3s;
+    }
+
+    /*Fazendo o movimento de 'X' em .um .dois e .tres*/
+    .menu-aberto .um{
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+
+    .menu-aberto .dois{
+        opacity: 0;
+    }
+
+    .menu-aberto .tres{
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    /*aumentando o header e exibindo o menu*/
+    .expandircabecalho {
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        background-color: #18bd9b;
+        z-index: 10;
+    }
+
+    .expandircabecalho .caixa-menu nav {
+        display: block;
+        height: 100%;
+    }
+
+    .expandircabecalho .caixa-menu nav ul {
+        flex-direction: column;
+
+    }
+
+    .expandircabecalho .caixa-menu nav ul li {
+        border: 1px solid white;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 564px) {
+
+    .caixa-menu {
+        width: 85vw;
+    }
+}
