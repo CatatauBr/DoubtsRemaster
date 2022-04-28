@@ -274,6 +274,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .banner-de-slides{
+        max-height: 450px;
+    }
+
     .relacionado {
         max-height: 431px;
     }
@@ -332,9 +336,7 @@
     .descricao-noticia-principal {
         max-height: 80px;
     }
-}
 
-@media screen and (max-width: 564px) {
     .descricao-noticia-principal h2{
         font-size: 1.2rem;
     }

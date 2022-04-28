@@ -109,6 +109,10 @@ body{
     border-top: 1px solid black;
 }
 
+.logotipo-rodape {
+    max-height: 50px;
+}
+
 .paragrafo {
     width: 100%;
     display: flex;
@@ -223,5 +227,13 @@ body{
 
     .caixa-menu {
         width: 85vw;
+    }
+
+    .paragrafo {
+        padding: 0 10vw;
+    }
+
+    .paragrafo p{
+        font-size: 1.1rem;
     }
 }
