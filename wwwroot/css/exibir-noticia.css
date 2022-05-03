@@ -1,0 +1,134 @@
+.listar-noticia{
+    background: #EEE;
+    padding: 1vh 2vw;
+    margin-top: 3px;
+    box-sizing: border-box;
+}
+
+.container-noticia{
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    display: grid;
+    grid-gap: 2.9vw;
+    justify-content: center;
+}
+
+.container-noticia article{
+    padding: 0 1vw;
+}
+
+.container-noticia header {
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container-noticia header h2 {
+    font-size: 3.5rem;
+    color: #18bd9b;
+    max-width: 40ch;
+    margin: 1vh 0;
+}
+
+.container-noticia header h3 {
+    font-size: 1.2rem;
+    text-indent: 1.0rem;
+    line-height: 2.0rem;
+    font-weight: normal;
+    color: rgb(105, 105, 105);
+
+}
+
+.data-publicacao {
+    font-size: 1.0rem;
+    color: #18bd9b;
+    font-weight: bold;
+}
+
+.paragrafo-texto {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-indent: 1.0rem;
+}
+
+.container-noticia article figure {
+    background: #eee;
+    padding: 10px 10px;
+}
+
+
+.container-noticia .foto-corpo-noticia{
+    width: 100%;
+    max-height: 570px;
+    object-fit: cover;
+}
+
+.container-noticia article figure figcaption {
+    
+    margin: 10px 0;
+    font-size: 1.2rem;
+    text-indent: 1.0rem;
+}
+
+article footer{
+    display: flex;
+    margin-top: 40px;
+}
+
+.foto-autor img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 3px solid rgb(184, 184, 184);
+    border-radius: 50%;
+}
+
+.resumo-biografia-autor {
+    padding: 4px 20px;
+}
+
+.nome-autor {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #18bd9b;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bio-autor {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: rgb(105, 105, 105);
+
+}
+
+@media screen and (min-width: 2561px) {
+}
+
+@media screen and (max-width: 2560px) {
+    .container-noticia{
+        padding: 2vh 0vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .container-noticia{
+        padding: 4vh 1vw;
+        grid-gap: 1vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 564px) {
+    
+}
