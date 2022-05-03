@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gmCmzI2jdtUWQvpkTe1rW0Cm/1BgJN6ZAeI8LgLvlq0=",
+  "Hash": "D99e4x11CLJTbKzIcsG06758Ojnv7qTY3D3AIC9fkRo=",
   "Source": "DoubtsRemaster",
   "BasePath": "_content/DoubtsRemaster",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\cards.css"
+    },
+    {
+      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\exibir-noticia.css",
+      "SourceId": "DoubtsRemaster",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
+      "BasePath": "_content/DoubtsRemaster",
+      "RelativePath": "css/exibir-noticia.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\exibir-noticia.css"
     },
     {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\global.css",

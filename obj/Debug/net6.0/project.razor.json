@@ -16298,6 +16298,11 @@
   "RootNamespace": "DoubtsRemaster",
   "Documents": [
     {
+      "FilePath": "d:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\Views\\Home\\Noticia.cshtml",
+      "TargetPath": "Views\\Home\\Noticia.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
