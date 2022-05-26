@@ -125,15 +125,118 @@ body{
     color: #FFF;
 }
 
+/*Tela de login*/
+
+
+
+.login-admin {
+    width: 100%;
+    height: 100vh;
+    padding: 2vh 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form{
+    border:  2px solid #18bd9b;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+
+.frm-login-admin {
+    border-radius: 2%;
+    padding: 8% 0;
+    box-sizing: border-box;
+}
+
+.txt-form {
+    width: 98%;
+    height: 40px;
+    font-size: 1.5rem;
+    margin-bottom: 85px;
+    text-align: center;
+    border-radius: 2%;
+    border: 1px solid rgb(63, 63, 63);
+}
+
+.erro-login {
+    display: none;
+}
+
+.enviar-dado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-enviar-dado {
+    width: 8vw;
+    height: 3vw;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #18bd9b;
+    border: 1px solid #858585;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.btn-enviar-dado:hover {
+    background-color: #fff;
+    color: #18bd9b;
+    border: 1px solid #18bd9b;
+    transition: all .2s ease-in-out;
+}
+
 @media screen and (min-width: 2561px) {
     .menu-principal {
         padding: 0.1vh 2vw;
     }
+
+    .container-form {
+        max-width: 770px;
+        height: 500px;
+    }
+
+    .frm-login-admin {
+        max-height: 500px;
+        width: 400px;
+    }
+
+    .txt-form {
+        border: 2px solid black;
+    }
+
+    .btn-enviar-dado {
+        max-height: 50px;
+        max-width: 120px;
+    }
+
+    
 }
 
-@media screen and (max-width: 2559px) {
+@media screen and (max-width: 2560px) {
     .caixa-menu{
         max-width: 2559px;
+    }
+
+    .container-form {
+        max-width: 770px;
+        height: 500px;
+    }
+
+    .frm-login-admin {
+        max-height: 500px;
+    }
+
+    .btn-enviar-dado {
+        max-height: 50px;
+        max-width: 120px;
     }
 }
 
@@ -221,6 +324,14 @@ body{
         justify-content: center;
     }
 
+    .container-form {
+        width: 60vw;
+    }
+
+    .btn-enviar-dado {
+        width: 20vw;
+        height: 35px;
+    }
 }
 
 @media screen and (max-width: 564px) {
@@ -235,5 +346,25 @@ body{
 
     .paragrafo p{
         font-size: 1.1rem;
+    }
+
+
+    .container-form {
+        width: 100vw;
+        border: none;
+    }
+
+    .frm-login-admin{
+        width: 80%;
+    }
+
+    .txt-form {
+        width: 100%;
+    }
+
+    .btn-enviar-dado {
+        width: 20vw;
+        height: 35px;
+        font-size: 1.6rem;
     }
 }

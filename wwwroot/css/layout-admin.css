@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Quicksand', Verdana, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: auto;
+    background-color: purple;
+}
+
+.grid-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+
+.barra-lateral {
+    height: 100vh;
+    border: 1px solid black;
+    box-sizing: border-box;  
+    position: sticky;
+    top: 0;  
+    background-color: #18bd9b;;
+}
+
+
+.logotipo{
+    width: 100%;
+    margin-bottom: 5vh;
+    padding: 1.0rem;
+    box-sizing: border-box;
+    
+}
+
+.logotipo img{
+    max-height: 60px;
+}
+
+.menu {
+    border-bottom: 1px solid white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.controlar-expansao{
+    height: 7.2vh;
+    padding: 4vh 1.0rem;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1.0rem;
+    box-sizing: border-box;
+}
+
+.item-menu-principal{
+    margin-bottom: 4vh;  
+}
+
+.item-menu-principal a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.item-menu-principal a:hover {
+    text-decoration: underline;
+}
+
+.renderizar-view {
+    position: relative;
+    right: 0;
+    background-color: pink;
+    box-sizing: border-box;
+    padding: 1vh 3vw;
+}
+
+p{
+    line-height: 2.0rem;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (min-width: 2561px) {
+    .renderizar-view {
+        padding-left: 1vw;
+    }
+
+    .logotipo {
+        margin-bottom: 2vh;
+    }
+
+    .item-menu-principal {
+        margin-bottom: 1vh;
+    }
+
+    .controlar-expansao {
+        height: 3.2vh;
+        padding: 1vh 1.0rem;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .renderizar-view {
+        padding-left: 1vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .logotipo {
+        margin-bottom: 0;
+    }
+
+    .controlar-expansao {
+        height: 5.2vh;
+        padding: 1.3vh 1.0rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .item-menu-principal a{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 564px) {
+
+}

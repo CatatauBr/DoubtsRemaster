@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - DoubtsRemaster</title>
+    <link rel="stylesheet" href="~/css/reset.css">
+    <link rel="stylesheet" href="~/css/layout-admin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="grid-conteudo">
+            <aside class="barra-lateral">
+                <div class="logotipo">
+                    <img src="~/img/logo.png" alt="logotipo da catatau corp">
+                </div>
+                <nav class="menu-principal">
+                    <div class="menu controlar-postagem">
+                        <ul>
+                            <li class="item-menu-principal"><a href="#">Criar Postagem</a></li>
+                            <li class="item-menu-principal"><a href="#">Listar Postagem</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu controlar-colaboradores">
+                        <ul>
+                            <li class="item-menu-principal"><a href="#">Adicionar Colaborador</a></li>
+                            <li class="item-menu-principal"><a href="#">Listar Colaborador</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu controlar-forum">
+                        <ul>
+                            <li class="item-menu-principal"><a href="#">Gerenciar Usuários</a></li>
+                            <li class="item-menu-principal"><a href="#">Gerenciar Temas</a></li>
+                            <li class="item-menu-principal"><a href="#">Gerenciar Tópicos</a></li>
+                            <li class="item-menu-principal"><a href="#">Moderar Denúncia</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu controlar-expansao">
+                        <span class="item-menu-principal"><a href="#">◄ Recolher menu</a></span>
+                    </div>
+                </nav>
+            </aside>
+            <div class="renderizar-view">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>

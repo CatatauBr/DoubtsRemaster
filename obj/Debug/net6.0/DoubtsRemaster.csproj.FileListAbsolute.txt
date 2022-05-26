@@ -687,9 +687,7 @@ D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\DoubtsRemast
 D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\DoubtsRemaster.RazorAssemblyInfo.cs
 D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\staticwebassets.build.json
 D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\staticwebassets.development.json
-D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\scopedcss\bundle\DoubtsRemaster.styles.css
-D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\scopedcss\projectbundle\DoubtsRemaster.bundle.scp.css
 D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\DoubtsRemaster.csproj.CopyComplete
 D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\DoubtsRemaster.dll
 D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\obj\Debug\net6.0\refint\DoubtsRemaster.dll

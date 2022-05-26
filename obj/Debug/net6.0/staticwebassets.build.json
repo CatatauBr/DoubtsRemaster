@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D99e4x11CLJTbKzIcsG06758Ojnv7qTY3D3AIC9fkRo=",
+  "Hash": "UkZk4IEyo3pUusy4oZNuagbIESExeKxAO0hzHrlOoiM=",
   "Source": "DoubtsRemaster",
   "BasePath": "_content/DoubtsRemaster",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DoubtsRemaster.styles.css",
-      "SourceId": "DoubtsRemaster",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/DoubtsRemaster",
-      "RelativePath": "DoubtsRemaster.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DoubtsRemaster.styles.css"
-    },
-    {
-      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DoubtsRemaster.bundle.scp.css",
-      "SourceId": "DoubtsRemaster",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/DoubtsRemaster",
-      "RelativePath": "DoubtsRemaster.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DoubtsRemaster.bundle.scp.css"
-    },
     {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\atividade-forum.css",
       "SourceId": "DoubtsRemaster",
@@ -102,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\cards.css"
     },
     {
+      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\contato.css",
+      "SourceId": "DoubtsRemaster",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
+      "BasePath": "_content/DoubtsRemaster",
+      "RelativePath": "css/contato.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\contato.css"
+    },
+    {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\exibir-noticia.css",
       "SourceId": "DoubtsRemaster",
       "SourceType": "Discovered",
@@ -134,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\global.css"
+    },
+    {
+      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\layout-admin.css",
+      "SourceId": "DoubtsRemaster",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
+      "BasePath": "_content/DoubtsRemaster",
+      "RelativePath": "css/layout-admin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout-admin.css"
+    },
+    {
+      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\listar-noticia.css",
+      "SourceId": "DoubtsRemaster",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
+      "BasePath": "_content/DoubtsRemaster",
+      "RelativePath": "css/listar-noticia.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\listar-noticia.css"
     },
     {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\reset.css",
@@ -491,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
+    {
+      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\img\\logotipo-reduzido.png",
+      "SourceId": "DoubtsRemaster",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
+      "BasePath": "_content/DoubtsRemaster",
+      "RelativePath": "img/logotipo-reduzido.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logotipo-reduzido.png"
     },
     {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\img\\LUPA-128.png",
