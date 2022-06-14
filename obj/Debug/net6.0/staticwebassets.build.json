@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UkZk4IEyo3pUusy4oZNuagbIESExeKxAO0hzHrlOoiM=",
+  "Hash": "uc1SBJWTqXyhDkJcu2qEy5RmbQ7y5CfWqBaZBKUA8ug=",
   "Source": "DoubtsRemaster",
   "BasePath": "_content/DoubtsRemaster",
   "Mode": "Default",
@@ -374,6 +374,23 @@
       "OriginalItemSpec": "wwwroot\\img\\aaaaaaaaaaaaaaaaaa.png"
     },
     {
+      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\img\\adm-forum.jpg",
+      "SourceId": "DoubtsRemaster",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
+      "BasePath": "_content/DoubtsRemaster",
+      "RelativePath": "img/adm-forum.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\adm-forum.jpg"
+    },
+    {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\img\\barbara.jpg",
       "SourceId": "DoubtsRemaster",
       "SourceType": "Discovered",
@@ -629,23 +646,6 @@
       "OriginalItemSpec": "wwwroot\\img\\nav.jpg"
     },
     {
-      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\img\\o que é a dp.jpg",
-      "SourceId": "DoubtsRemaster",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
-      "BasePath": "_content/DoubtsRemaster",
-      "RelativePath": "img/o que é a dp.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\o que é a dp.jpg"
-    },
-    {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\img\\pexels-elif-aksoy-11588707.jpg",
       "SourceId": "DoubtsRemaster",
       "SourceType": "Discovered",
@@ -695,6 +695,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\quem-faz.png"
+    },
+    {
+      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\img\\quem-somos.jpg",
+      "SourceId": "DoubtsRemaster",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
+      "BasePath": "_content/DoubtsRemaster",
+      "RelativePath": "img/quem-somos.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\quem-somos.jpg"
     },
     {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\img\\seguranca.png.webp",
@@ -814,6 +831,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\carossel.js"
+    },
+    {
+      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\js\\menu-admin.js",
+      "SourceId": "DoubtsRemaster",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
+      "BasePath": "_content/DoubtsRemaster",
+      "RelativePath": "js/menu-admin.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\menu-admin.js"
     },
     {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\js\\menu.js",

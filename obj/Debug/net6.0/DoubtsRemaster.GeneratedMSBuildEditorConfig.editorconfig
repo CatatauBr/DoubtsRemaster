@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DoubtsRemaster
 build_property.RootNamespace = DoubtsRemaster
-build_property.ProjectDir = D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\
+build_property.ProjectDir = d:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster
+build_property.MSBuildProjectDirectory = d:\_dev\dotnet-core\dotnet-core-mvc\DoubtsRemaster
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/AdmSecreto/Inicial.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/AdmSecreto/Inicial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtU2VjcmV0b1xJbmljaWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/AdmSecreto/Login.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/AdmSecreto/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtU2VjcmV0b1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Home/Contato.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Home/Contato.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Home/Index.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Home/Privacy.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Noticias/Index.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Noticias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Noticias/LerNoticia.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Noticias/LerNoticia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcTGVyTm90aWNpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Shared/Error.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Shared/_Layout.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Shared/_TemplateAdmin.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Shared/_TemplateAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZW1wbGF0ZUFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/_ViewImports.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/_ViewStart.cshtml]
+[d:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

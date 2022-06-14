@@ -13,7 +13,8 @@
         <div class="grid-conteudo">
             <aside class="barra-lateral">
                 <div class="logotipo">
-                    <img src="~/img/logo.png" alt="logotipo da catatau corp">
+                    <img src="~/img/logo.png" alt="logotipo da catatau corp" class="logotipo-completo">
+                    <img src="~/img/logotipo-reduzido.png" alt="" class="logotipo-reduzido">
                 </div>
                 <nav class="menu-principal">
                     <div class="menu controlar-postagem">
@@ -36,15 +37,37 @@
                             <li class="item-menu-principal"><a href="#">Moderar Denúncia</a></li>
                         </ul>
                     </div>
-                    <div class="menu controlar-expansao">
+                    <div class="menu controlar-expansao fechado">
                         <span class="item-menu-principal"><a href="#">◄ Recolher menu</a></span>
-                    </div>
+                    </div>    
                 </nav>
+                <div class="hamburguer-menu">
+                    <div class="um"></div>
+                    <div class="dois"></div>
+                    <div class="tres"></div>
+                </div>
             </aside>
             <div class="renderizar-view">
+                <header class="cabecalho">
+                    <div class="boas-vindas">
+                        <h2 class="texto-boas-vindas">Olá, Administrador</h2>
+                    </div>
+                    <div class="dados-usuario-logado">
+                        <div class="foto-perfil">
+                            <img src="~/img/adm-forum.jpg" alt="foto de perfil do usuário" >
+                        </div>
+                        <div class="container-opcoes-usuario">
+                            <ul>
+                                <li><a href="#" class="editar-perfil">Editar Perfil</a></li>
+                                <li><a href="#" class="sair">Sair</a></li>
+                            </ul>
+                        </div>                    
+                    </div>
+                </header>
                 @RenderBody()
             </div>
         </div>
     </div>
+    <script src="~/js/menu-admin.js"></script>
 </body>
 </html>

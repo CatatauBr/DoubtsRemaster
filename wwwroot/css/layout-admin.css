@@ -21,16 +21,17 @@ body{
 .container {
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     max-width: 1366px;
     margin: auto;
-    background-color: purple;
+    box-sizing: border-box;
+    
 }
 
 .grid-conteudo {
     display: grid;
-    grid-template-columns: 1fr 9fr;
+    grid-template-columns: auto 9fr;
     box-sizing: border-box;
-    background-color: yellow;
 }
 
 .barra-lateral {
@@ -39,7 +40,7 @@ body{
     box-sizing: border-box;  
     position: sticky;
     top: 0;  
-    background-color: #18bd9b;;
+    background-color: #18bd9b;
 }
 
 
@@ -48,10 +49,16 @@ body{
     margin-bottom: 5vh;
     padding: 1.0rem;
     box-sizing: border-box;
-    
+    display: flex;
+    justify-content: center;
 }
 
-.logotipo img{
+.logotipo-completo{
+    max-height: 60px;
+    display: none;
+}
+
+.logotipo-reduzido {
     max-height: 60px;
 }
 
@@ -59,13 +66,16 @@ body{
     border-bottom: 1px solid white;
     margin: 0;
     box-sizing: border-box;
+    display: none;
 }
 
-.controlar-expansao{
-    height: 7.2vh;
-    padding: 4vh 1.0rem;
+.controlar-expansao {
     box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    border-bottom: none;
 }
+
 
 .menu ul {
     display: flex;
@@ -76,13 +86,13 @@ body{
 }
 
 .item-menu-principal{
-    margin-bottom: 4vh;  
+    margin-bottom: 4vh; 
+    font-weight: bold;
+    font-size: 1.5rem; 
 }
 
 .item-menu-principal a{
     color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -90,25 +100,179 @@ body{
     text-decoration: underline;
 }
 
+.fechado {
+    display: none;
+}
+
+.hamburguer-menu{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 4vh;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hamburguer-menu > div{
+    width: 30px;
+    height: 5px;
+    background: #fff;
+    margin: 4px;
+}
+
 .renderizar-view {
-    position: relative;
-    right: 0;
-    background-color: pink;
     box-sizing: border-box;
-    padding: 1vh 3vw;
 }
 
 p{
     line-height: 2.0rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/*Tratando o menu expandido nos desktops*/
+
+.expandir-menu .barra-lateral {
+    max-width: 200px;
+}
+
+.expandir-menu .logotipo-reduzido {
+    display: none;
+}
+
+.expandir-menu .logotipo-completo {
+    display: block;
+}
+
+.expandir-menu .menu{
+    display: block;
+}
+
+.expandir-menu .hamburguer-menu {
+    display: none;
+}
+
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 8.5fr 1.5fr;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-bottom: 1px solid #18bd9b;
+}
+
+
+.boas-vindas {
+    box-sizing: border-box;
+}
+
+.texto-boas-vindas {
+    font-size: 2.5rem;
+    color: #18bd9b;
+}
+
+.foto-perfil {
+    max-width: 176px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-perfil img {
+    width: 6vw;
+    height: 6vw;
+    max-width: 90px;
+    max-height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: blue;
+}
+
+.container-opcoes-usuario {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dados-usuario-logado {
+    background-color: #f7f7f7;
+}
+
+.dados-usuario-logado ul{
+    padding: 0;
+}
+
+.dados-usuario-logado ul li {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+.container-opcoes-usuario > ul > li a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.container-opcoes-usuario > ul > li a:hover {
+    text-decoration: underline;
+}
+
+.editar-perfil {
+    color: #18bd9b;
+}
+
+.sair {
+    color: #f00303;
+}
+
+
+/*Tratando o CSS da tela inicial*/
+
+.tela-inicial {
+    max-width: 1366px;
+}
+
+.grid-opcoes {
+    padding: 40px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 2vw;
+ }
+
+.btn-opcao {
+    background-color: #18bd9b;
+    box-sizing: border-box;
+    margin-bottom: 1vh;
+    height: 15vh;
+    max-height: 94px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn-opcao:hover {
+    transform: scale(1.03);
+    transition: all 200ms ease;
+}
+
+.btn-opcao a {
+    font-size: 2.0rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-opcao a:hover {
+    text-decoration: underline;
 }
 
 
 @media screen and (min-width: 2561px) {
-    .renderizar-view {
-        padding-left: 1vw;
-    }
-
     .logotipo {
         margin-bottom: 2vh;
     }
@@ -117,15 +281,15 @@ p{
         margin-bottom: 1vh;
     }
 
-    .controlar-expansao {
-        height: 3.2vh;
-        padding: 1vh 1.0rem;
+    .dados-usuario-logado ul li {
+        margin-bottom: 10px;
     }
+
 }
 
 @media screen and (max-width: 2560px) {
-    .renderizar-view {
-        padding-left: 1vw;
+    .hamburguer-menu {
+        margin-left: 15px;
     }
 }
 
@@ -133,23 +297,139 @@ p{
     .logotipo {
         margin-bottom: 0;
     }
-
-    .controlar-expansao {
-        height: 5.2vh;
-        padding: 1.3vh 1.0rem;
-    }
 }
 
 @media screen and (max-width: 1024px) {
-    .item-menu-principal a{
-        font-size: 1.3rem;
+    .item-menu-principal{
+        font-size: 1.2rem;
+    }
+
+    .controlar-expansao {
+        height: 100px;
+    }
+
+    .btn-opcao a {
+        font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width: 768px) {
+
+    .logotipo-completo {
+        display: none;
+    }
+
+    .logotipo-reduzido {
+        max-height: 50px;
+        display: block;
+    }
+
+    .item-menu-principal {
+        font-size: 1.2rem;
+        margin-bottom: 2vh;
+    }     
+
+    .controlar-expansao {
+        height: 60px;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+
+    .hamburguer-menu {
+        margin-left: 1.0rem;
+    }
+
+    /*Fazendo o menu resposivo*/
+
+    .expandir-menu {
+        grid-template-columns: auto;
+        transition: all 200ms ease;
+    }
+
+    .expandir-menu .barra-lateral {
+        max-width: none;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+    .expandir-menu .logotipo-completo {
+        display: block;
+    }
+
+    .expandir-menu .logotipo-reduzido {
+        display: none;
+    }
+
+    .expandir-menu .menu-principal {
+        display: block;
+    }
     
+    .expandir-menu .item-menu-principal {
+        text-align: center;
+        font-size: 2.0rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .expandir-menu .controlar-expansao {
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+    }
+
+    .fechado {
+        height: 85%;
+        margin-left: 0%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .fechado span{
+        font-size: 3.0rem;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .cabecalho {
+        grid-template-columns: 8fr 2fr;
+    }
+
+    .foto-perfil img {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .grid-opcoes {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 @media screen and (max-width: 564px) {
+    .cabecalho {
+        grid-template-columns: 7fr 3fr;
+    }
 
+    .foto-perfil img {
+        width: 13vw;
+        height: 13vw;
+    }
+
+    .grid-opcoes {
+        grid-template-columns: 1fr;
+    }
+
+    .btn-opcao {
+        max-width: 233px;
+        max-height: 94px;
+    }
+
+    .texto-boas-vindas {
+        font-size: 2.0rem;
+    }
 }
