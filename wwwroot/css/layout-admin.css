@@ -350,7 +350,7 @@ p{
 
     .expandir-menu .barra-lateral {
         max-width: none;
-        width: 100%;
+        width: 100vw;
         position: sticky;
         top: 0;
         z-index: 2;

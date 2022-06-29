@@ -15,5 +15,45 @@ namespace DoubtsRemaster.Controllers
         {
             return View();
         }
+
+        public IActionResult CriarPostagem() 
+        {
+            return View();
+        }
+
+        public IActionResult ListarPostagem() 
+        {
+            return View();
+        }
+
+        public IActionResult AdicionarColaborador() 
+        {
+            return View();
+        }
+
+        public IActionResult ListarColaborador() 
+        {
+            return View();
+        }
+
+        public IActionResult GerenciarUsuarios() 
+        {
+            return View();
+        }
+
+        public IActionResult GerenciarTemas() 
+        {
+            return View();
+        }
+
+        public IActionResult GerenciarTopicos() 
+        {
+            return View();
+        }
+
+        public IActionResult ModerarDenuncia() 
+        {
+            return View();
+        }
     }
 }

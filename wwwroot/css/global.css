@@ -164,6 +164,11 @@ body{
     border: 1px solid rgb(63, 63, 63);
 }
 
+.txt-form:focus {
+    box-shadow: 1px;
+    outline: 0;
+}
+
 .erro-login {
     display: none;
 }
@@ -182,7 +187,7 @@ body{
     color: #fff;
     background-color: #18bd9b;
     border: 1px solid #858585;
-    border-radius: 2%;
+    border-radius: 4%;
     cursor: pointer;
 }
 
@@ -199,8 +204,12 @@ body{
     }
 
     .container-form {
-        max-width: 770px;
-        height: 500px;
+        max-width: 570px;
+        height: 400px;
+    }
+
+    .login-admin {
+        height: 50vh;
     }
 
     .frm-login-admin {
@@ -226,8 +235,12 @@ body{
     }
 
     .container-form {
-        max-width: 770px;
-        height: 500px;
+        max-width: 570px;
+        height: 400px;
+    }
+
+    .login-admin {
+        height: 50vh;
     }
 
     .frm-login-admin {
@@ -237,6 +250,12 @@ body{
     .btn-enviar-dado {
         max-height: 50px;
         max-width: 120px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .login-admin {
+        height: 79vh;
     }
 }
 
