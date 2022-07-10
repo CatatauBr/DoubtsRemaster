@@ -43,8 +43,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtU2VjcmV0b1xMaXN0YXJDb2xhYm9yYWRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/AdmSecreto/ListarPostagem.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtU2VjcmV0b1xMaXN0YXJQb3N0YWdlbS5jc2h0bWw=
+[D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/AdmSecreto/ListarNoticia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtU2VjcmV0b1xMaXN0YXJOb3RpY2lhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_dev/dotnet-core/dotnet-core-mvc/DoubtsRemaster/Views/AdmSecreto/Login.cshtml]

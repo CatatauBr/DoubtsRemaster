@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F2csOhwNEsAhKJR/F5baxYelIPgm/wdqvYHHl718wzc=",
+  "Hash": "rAu4kZNGa2hLex2wWyP3wf2lyOLJx2ISehHaP5+qLVg=",
   "Source": "DoubtsRemaster",
   "BasePath": "_content/DoubtsRemaster",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\adicionar-colaborador.css",
+      "SourceId": "DoubtsRemaster",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
+      "BasePath": "_content/DoubtsRemaster",
+      "RelativePath": "css/adicionar-colaborador.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adicionar-colaborador.css"
+    },
     {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\atividade-forum.css",
       "SourceId": "DoubtsRemaster",
@@ -168,23 +185,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\reset.css"
-    },
-    {
-      "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\site.css",
-      "SourceId": "DoubtsRemaster",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\",
-      "BasePath": "_content/DoubtsRemaster",
-      "RelativePath": "css/site.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "D:\\_dev\\dotnet-core\\dotnet-core-mvc\\DoubtsRemaster\\wwwroot\\css\\tela-listagem-itens.css",

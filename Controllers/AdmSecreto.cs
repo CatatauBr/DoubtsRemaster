@@ -36,6 +36,12 @@ namespace DoubtsRemaster.Controllers
             return View();
         }
 
+
+        public IActionResult ListarNoticia() 
+        {
+            return View();
+        }
+
         public IActionResult GerenciarUsuarios() 
         {
             return View();

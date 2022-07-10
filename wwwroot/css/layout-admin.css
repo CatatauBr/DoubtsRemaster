@@ -22,7 +22,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1366px;
+    max-width: 1920px;
     margin: auto;
     box-sizing: border-box;
     
@@ -156,7 +156,7 @@ p{
     display: grid;
     grid-template-columns: 8.5fr 1.5fr;
     box-sizing: border-box;
-    padding-left: 10px;
+    padding-left: 1vw;
     border-bottom: 1px solid #18bd9b;
 }
 
@@ -171,8 +171,8 @@ p{
 }
 
 .foto-perfil {
-    max-width: 176px;
     margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
 }
@@ -272,7 +272,11 @@ p{
 }
 
 
-@media screen and (min-width: 2561px) {
+@media screen and (min-width: 2561px) and (max-width: 3840px) {
+    .cabecalho {
+        grid-template-columns: 9fr 1.0fr;
+    }
+
     .logotipo {
         margin-bottom: 2vh;
     }
@@ -314,6 +318,9 @@ p{
 }
 
 @media screen and (max-width: 768px) {
+    .cabecalho {
+        padding-left: 3vw;
+    }
 
     .logotipo-completo {
         display: none;

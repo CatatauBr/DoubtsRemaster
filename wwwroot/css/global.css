@@ -23,7 +23,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1439px;
+    max-width: 1920px;
     margin: auto;
 }
 
@@ -167,6 +167,7 @@ body{
 .txt-form:focus {
     box-shadow: 1px;
     outline: 0;
+    border: 1px solid #18bd9b;
 }
 
 .erro-login {
@@ -259,6 +260,17 @@ body{
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .container-form {
+        padding: 2vw;
+    }
+
+    .btn-enviar-dado {
+        min-width: 80px;
+        min-height: 30px;
+    }
+}
+
 
 @media screen and (max-width: 768px){
     /*Trabalhando o menu e deixando ele desativado*/
@@ -274,9 +286,9 @@ body{
     .caixa-menu { 
         display: flex;
         justify-content: space-around;
-        width: 90vw;
+        width: 100vw;
         margin-left: 0vw;
-        margin-top: 10vh;
+        margin-top: 12vh;
         position: absolute;
     }
 
@@ -328,6 +340,7 @@ body{
     .expandircabecalho .caixa-menu nav {
         display: block;
         height: 100%;
+        width: 80%;
     }
 
     .expandircabecalho .caixa-menu nav ul {
@@ -347,17 +360,10 @@ body{
         width: 60vw;
     }
 
-    .btn-enviar-dado {
-        width: 20vw;
-        height: 35px;
-    }
 }
 
 @media screen and (max-width: 564px) {
 
-    .caixa-menu {
-        width: 85vw;
-    }
 
     .paragrafo {
         padding: 0 10vw;
@@ -379,11 +385,5 @@ body{
 
     .txt-form {
         width: 100%;
-    }
-
-    .btn-enviar-dado {
-        width: 20vw;
-        height: 35px;
-        font-size: 1.6rem;
     }
 }
